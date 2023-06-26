@@ -77,22 +77,6 @@ h4 {
 	text-decoration: line-through;
 }
 
-.todo .delete-todo {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	right: 16px;
-	color: var(--light);
-	width: 24px;
-	height: 24px;
-	border-radius: 50%;
-	background-color: #AF1E2D;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 700;
-}
-
 .addPopup {
 	position: fixed;
 	bottom: 32px;
@@ -130,16 +114,33 @@ h4 {
 	position: absolute;
 	top: 16px;
 	right: 16px;
-	width: 20px;
-	height: 20px;
+	width: 24px;
+	height: 24px;
 	font-size: 18px;
 	color: var(--light);
 	cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--primary);
   border-radius: 50%;
 
+}
+
+.todo .delete-todo {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+	color: var(--light);
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #AF1E2D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
 }
 
 .popup h3 {
@@ -172,4 +173,8 @@ h4 {
 	margin-top: 16px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.wrapper {
+    padding: 20px;
 }

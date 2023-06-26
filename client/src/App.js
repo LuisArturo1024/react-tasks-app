@@ -1,4 +1,5 @@
 import { useState, useEffect} from 'react';
+
 const API_BASE = 'http://localhost:3001'
 
 function App() {
@@ -78,7 +79,7 @@ function App() {
 
             {popupActive ? (
 				<div className='popup'>
-					<div className='closePopup' onClick={() => setPopupActive(false)}>X</div>
+					<div className='closePopup' onClick={() => setPopupActive(false)}>x</div>
 					<div className='content'>
 						<h3>Add Task</h3>
                         {newTodo}
